@@ -9,7 +9,7 @@ include "simple_html_dom.php";
 $url = "http://esl-lab.com/homestay/homestayrd1.htm";
 
 //var_dump(checkPosition(getQuiz($url),getAns($url)));
-//var_dump(getQuiz($url));
+var_dump(getQuiz($url));
 var_dump(positionAns(getQuiz($url),getAns($url)));
 function getQuiz($url){
   $html = file_get_html($url);
